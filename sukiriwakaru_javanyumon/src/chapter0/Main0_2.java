@@ -1,4 +1,4 @@
-package sukiriwakaru_javanyumon;
+package chapter0;
 
 public class Main0_2 {
 	public static void main(String[] args) {
