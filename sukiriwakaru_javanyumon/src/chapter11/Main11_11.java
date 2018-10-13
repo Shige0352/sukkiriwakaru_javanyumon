@@ -1,0 +1,27 @@
+package chapter11;
+
+public class Main11_11 {
+	public class Item {
+		private String name;
+		private int price;
+		public Item(String name) {
+			this.name = name;
+			this.price = 0;
+
+		}
+
+		public Item(String name, int price) {
+			this.name = name;
+			this.price = price;
+		}
+
+		public class Wepon extends Item {}
+
+		public class Main {
+			public static void main(String[] args) {
+				Weapon w = new Weapon();
+			}
+		}
+	}
+
+}
